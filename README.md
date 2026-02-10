@@ -6,7 +6,7 @@ A lightweight Python utility designed for "digital housekeeping." Instead of man
 It checks the "Last Modified" timestamp st.mtime of every file.
 
 If: 
-{Current Time}-{File Modified Time} > 7 days
+{Current Time}-{File Modified Time} > 7 days,
 The file is permanently removed to save storage.
 🛠️ FeaturesSafety Buffer: Keeps the last 7 days of screenshots so you don't lose active work.
 Error Handling: Skips files that are currently open or system-protected.Path Resilience: Uses pathlib for modern, cross-platform path handling.Background Ready: Compatible with pythonw.exe for invisible execution.
